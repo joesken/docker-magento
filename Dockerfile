@@ -1,5 +1,5 @@
 FROM dell/lamp-base:1.2
-MAINTAINER Dell Cloud Market Place <Cloud_Marketplace@dell.com>
+MAINTAINER Yago Silvela <ysilvela@gmail.com>
 
 # Do an update of the base packages.
 RUN apt-get update --fix-missing
