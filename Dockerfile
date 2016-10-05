@@ -16,7 +16,7 @@ RUN apt-get -y clean && rm -rf /var/lib/apt/lists/*
 
 RUN php5enmod mcrypt
 
-# Update Apache permissions.
+# Update Apache permissions. 
 RUN sed -i 's/AllowOverride Limit/AllowOverride All/g' \
     /etc/apache2/sites-available/000-default.conf
 
