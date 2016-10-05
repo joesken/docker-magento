@@ -25,7 +25,7 @@ RUN rm -fr /var/www/html
 
 # Get the Magento files
 #RUN wget http://www.magentocommerce.com/downloads/assets/1.9.1.0/magento-1.9.1.0.tar.gz
-RUN wget https://github.com/ysilvela/docker-magento/magento-1.9.1.0.tar-2015-02-10-09-39-06.gz
+RUN wget https://github.com/ysilvela/docker-magento/raw/master/magento-1.9.1.0.tar-2015-02-10-09-39-06.gz
 RUN mv magento-1.9.1.0.tar-2015-02-10-09-39-06.gz /tmp
 RUN cd /tmp && tar -zxvf magento-1.9.1.0.tar-2015-02-10-09-39-06.gz
 RUN mv /tmp/magento /app
