@@ -32,7 +32,7 @@ if [[ ! -d $VOLUME_HOME/magento ]]; then
 
     echo "========================================================================"
     echo
-    echo "MySQL magento user password:" $MAGENTO_PASSWORD
+    echo "MySQL magento 1.9.1.0 user password:" $MAGENTO_PASSWORD
     echo
     echo "========================================================================"
 
