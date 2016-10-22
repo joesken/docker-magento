@@ -26,7 +26,7 @@ Start your container with:
 As follows:
 
 ```no-highlight
-sudo docker run -d -p 80:80 -p 443:443 -p 3306:3306 --name magento dell/magento
+sudo docker run -d -p 80:80 -p 443:443 -p 3306:3306 --name magento ysilvela/magento
 ```
 
 <a name="advanced-usage"></a>
