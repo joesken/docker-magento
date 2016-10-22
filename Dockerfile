@@ -2,7 +2,7 @@ FROM dell/lamp-base:1.2
 MAINTAINER Yago Silvela <ysilvela@gmail.com>
 
 # Add scripts and make them executable.
-COPY run.sh /run.sh
+COPY /run.sh /run.sh
 RUN chmod +x /*.sh
 
 # Do an update of the base packages.
