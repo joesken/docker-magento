@@ -19,10 +19,10 @@ RUN DEBIAN_FRONTEND=noninteractive \
 RUN apt-get -y clean && rm -rf /var/lib/apt/lists/*
 
 # Install sendmail
-RUN apt-get install sendmail
+RUN apt-get update & apt-get install sendmail
 
 # Install nano
-RUN apt-get install nano
+RUN apt-get update & apt-get install nano
 
 RUN php5enmod mcrypt
 
