@@ -60,4 +60,6 @@ if [ ! "$(ls -A $APPLICATION_HOME)" ]; then
     cd $APPLICATION_HOME && chown -R www-data .
 fi
 
+cron start
+
 exec supervisord -n
