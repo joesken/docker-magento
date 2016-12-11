@@ -20,11 +20,11 @@ RUN apt-get -y clean && rm -rf /var/lib/apt/lists/*
 
 # Install nano
 RUN apt-get update
-RUN apt-get install nano
+RUN apt-get -y install nano
 
 # Install sendmail
 RUN apt-get update
-RUN apt-get install sendmail
+RUN apt-get -y install sendmail
 
 
 RUN php5enmod mcrypt
